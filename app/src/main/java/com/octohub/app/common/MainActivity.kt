@@ -1,4 +1,4 @@
-package com.octohub.app
+package com.octohub.app.common
 
 import android.os.Bundle
 import android.support.design.widget.AppBarLayout
@@ -10,6 +10,8 @@ import butterknife.ButterKnife
 import com.bluelinelabs.conductor.Conductor
 import com.bluelinelabs.conductor.Router
 import com.bluelinelabs.conductor.RouterTransaction
+import com.octohub.app.R
+import com.octohub.app.feature.user.HomeController
 
 class MainActivity : AppCompatActivity() {
 
